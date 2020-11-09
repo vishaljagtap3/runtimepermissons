@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSendSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS" />
+
+    <Button
+        android:id="@+id/btnReadExtStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read External Storage" />
+
+    <Button
+        android:id="@+id/btnCallPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Phone" />
+</LinearLayout>
